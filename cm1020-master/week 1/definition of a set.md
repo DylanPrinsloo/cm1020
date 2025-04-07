@@ -116,7 +116,87 @@ Using set notation, list all the elements contained in each of the following set
 
 ---
 
-# 4. Summary
+# 4. Subset of a Set
+
+A subset is another fundamental concept in set theory that describes a relationship between sets.
+
+## 4.1 Definition of a Subset
+
+**Definition 5:** A set A is a **subset** of set B if **every** element of A is also an element of B. We denote this as:
+
+`A ⊆ B`
+
+If A is a subset of B, we can also say that B is a **superset** of A.
+
+### Examples:
+
+- If `A = {1, 2}` and `B = {1, 2, 3, 4}`, then `A ⊆ B`
+- If `A = {a, b, c}` and `B = {a, b, c}`, then `A ⊆ B` (a set is always a subset of itself)
+- The empty set `∅` is a subset of every set
+
+---
+
+## 4.2 Proper Subset
+
+**Definition 6:** A set A is a **proper subset** of B if A is a subset of B **and** A ≠ B (there is at least one element in B that is not in A). We denote this as:
+
+`A ⊂ B`
+
+### Examples:
+
+- If `A = {1, 2}` and `B = {1, 2, 3, 4}`, then `A ⊂ B` (proper subset)
+- If `A = {a, b, c}` and `B = {a, b, c}`, then `A ⊆ B` but A is NOT a proper subset of B
+- If `A = ∅` and `B = {1, 2, 3}`, then `A ⊂ B` (proper subset)
+
+---
+
+## 4.3 Properties of Subsets
+
+1. Every set is a subset of itself: `A ⊆ A`
+2. The empty set is a subset of every set: `∅ ⊆ A`
+3. If `A ⊆ B` and `B ⊆ C`, then `A ⊆ C` (transitivity)
+4. For a finite set with n elements, the number of possible subsets is 2^n
+
+---
+
+## 4.4 Exercise
+
+For the set `X = {a, b, c}`:
+
+1. List all possible subsets of X
+2. Identify which of these subsets are proper subsets
+3. Calculate the total number of subsets using the formula
+
+---
+
+## 4.5 Solution
+
+1. All subsets of `X = {a, b, c}`:
+   - `∅`
+   - `{a}`
+   - `{b}`
+   - `{c}`
+   - `{a, b}`
+   - `{a, c}`
+   - `{b, c}`
+   - `{a, b, c}`
+
+2. Proper subsets of X:
+   - `∅`
+   - `{a}`
+   - `{b}`
+   - `{c}`
+   - `{a, b}`
+   - `{a, c}`
+   - `{b, c}`
+   
+   Note: `{a, b, c}` is NOT a proper subset of X since it equals X.
+
+3. For a set with n = 3 elements, the number of possible subsets is 2^3 = 8, which matches our list.
+
+---
+
+# 5. Summary
 
 This way of representing sets is called the **listing method**.  
 In future lessons, we will explore:
