@@ -1,0 +1,10 @@
+# student
+user:
+  name: Dylan Prinsloo
+  age: 24
+  roles:
+    - admin
+  Major: Computer Science
+  Minor: Machine learning and Neural Networks
+  Currnet Repo: CM120
+  active: true
