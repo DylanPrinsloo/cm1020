@@ -71,3 +71,5 @@
 - The number of elements in a power set grows exponentially with the number of elements in the original set.
   
 - It is essential to understand and correctly denote the difference between a subset and an element when discussing power sets.
+
+[Subset recap, and understanding of sets](subset-recap-image.PNG)

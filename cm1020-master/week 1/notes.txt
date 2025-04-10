@@ -1,0 +1,22 @@
+
+set:                   S = {1, 2, 3}
+cardinality:          |S| = 3
+power set:             P(S) = {∅, {1}, {2}, {3}, {1,2}, {2,3}, {1,2,3}}
+
+cardinality of power set: |P(S)| = 8 = 2^3 = 2^|S|
+
+
+In set theory, two sets are said to be disjoint if they have no elements in common. 
+
+In other words, their intersection is the empty set. This means that for any two sets A 
+and B, if 
+
+A ∩ B = ∅
+
+then A and B are disjoint.
+
+For example, if A = {1, 2, 3} and B = {4, 5, 6}, there is no element that belongs to both A 
+and B; hence, A and B are disjoint.
+
+Disjointness is an important concept because it helps in understanding how sets are related. 
+In probability theory, for instance, events that are disjoint (or mutually exclusive) cannot happen at the same time. This idea also appears in discussions about partitions of a set, where the subsets in the partition are pairwise disjoint.

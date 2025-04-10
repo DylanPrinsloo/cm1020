@@ -29,7 +29,7 @@ A set is a fundamental concept in mathematics and computer science. It’s a col
 
 ## 3.1 Element or Member of a Set (`∈`)
 
-The symbol `∈` denotes **membership**.
+The symbol `∈` denotes **membership** or an **element**
 
 If `a` is an element of a set `A`, we write:  
 `a ∈ A`
@@ -72,7 +72,7 @@ The empty set is denoted by:
 
 ---
 
-## 3.4 Cardinality of a Set
+## 3.4 Cardinality of a Set ( `|A|` )
 
 The **cardinality** of a set is the number of elements in the set.  
 It is denoted by `|A|`.
@@ -120,7 +120,7 @@ Using set notation, list all the elements contained in each of the following set
 
 A subset is another fundamental concept in set theory that describes a relationship between sets.
 
-## 4.1 Definition of a Subset
+## 4.1 Definition of a Subset ( `⊆` )
 
 **Definition 5:** A set A is a **subset** of set B if **every** element of A is also an element of B. We denote this as:
 
