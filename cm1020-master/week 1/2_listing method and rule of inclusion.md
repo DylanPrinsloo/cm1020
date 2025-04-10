@@ -99,4 +99,4 @@ The lesson also covers how to convert a set from one representation to the other
 
 - **Set-Builder Notation:** 
 
-[listing-methods-image](listing-methods-image.png) 
+[listing-methods-image](images/listing-methods-image.png) 

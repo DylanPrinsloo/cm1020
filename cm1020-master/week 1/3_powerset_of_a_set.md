@@ -72,4 +72,4 @@
   
 - It is essential to understand and correctly denote the difference between a subset and an element when discussing power sets.
 
-[Subset recap, and understanding of sets](subset-recap-image.PNG)
+[Subset recap, and understanding of sets](images/subset-recap-image.PNG)
