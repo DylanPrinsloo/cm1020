@@ -23,3 +23,10 @@ first law = (A ∪ B)′ = A′ ∩ B′
 
 second law = (A ∩ B)′ = A′ ∪ B′
 
+
+Commutativity
+Associativity
+Distributivity
+
+Absorption Law added on the other laws with de morgans
+
