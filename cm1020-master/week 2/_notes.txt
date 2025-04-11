@@ -1,0 +1,25 @@
+
+set:                   S = {1, 2, 3}
+cardinality:          |S| = 3
+power set:             P(S) = {∅, {1}, {2}, {3}, {1,2}, {2,3}, {1,2,3}}
+
+cardinality of power set: |P(S)| = 8 = 2^3 = 2^|S|
+
+
+universal set  = `U`
+
+Union = `A ∪ B`
+
+intersection = `A ∩ B`
+
+set difference = `A - B`
+
+symmetric difference = `A Δ B`or `A + B`
+
+
+
+de morgans law 
+first law = (A ∪ B)′ = A′ ∩ B′
+
+second law = (A ∩ B)′ = A′ ∪ B′
+

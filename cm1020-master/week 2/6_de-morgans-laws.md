@@ -1,4 +1,4 @@
-### [images/De Morgan's Laws](images/de-morgans-law.JPG) are fundamental principles in set theory and logic that describe the relationships between the union and intersection of sets through their complements. Formulated by the British mathematician Augustus De Morgan, these laws provide a way to express the complement of the union of two sets in terms of the intersection of their complements, and vice versa.
+### [images/De Morgan's Laws](images/de-morgans-law.JPG) are fundamental principles in set theory and logic that describe the relationships between the union and intersection of sets through their complements (opposites). Formulated by the British mathematician Augustus De Morgan, these laws provide a way to express the complement of the union of two sets in terms of the intersection of their complements, and vice versa.
 
 ## The two laws are stated as follows:
 
@@ -18,7 +18,11 @@
 
 - **Second Law**: Similarly, the intersection of sets A and B includes only elements common to both. The complement of this intersection consists of elements not common to both A and B. This area corresponds to the union of the complements of A and B, confirming that [(A ∩ B)′ = A′ ∪ B′.](images/de-morgans-law-2nd-proof-venn.png)
 
-[**Truth tables**](images/de-morgans-law-proof-mem-tbls.JPG) can also be used to prove these laws in the context of Boolean algebra by demonstrating that both sides of the equations yield the same truth values for all possible inputs.
+**Truth tables** can also be used to prove these laws in the context of Boolean algebra by demonstrating that both sides of the equations yield the same truth values for all possible inputs.
+
+- [(A ∪ B)′ = A′ ∩ B′]((images/de-morgans-law-proof-mem-tbls.JPG))
+  
+- [(A ∩ B)′ = A′ ∪ B′](images/de-morgans-law-membership-table-2.png)
 
 [**Example**:](images/de-morgans-law-example.png)
 
