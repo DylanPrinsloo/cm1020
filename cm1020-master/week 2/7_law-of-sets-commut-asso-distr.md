@@ -97,23 +97,26 @@ Several other identities were mentioned in the lecture:
     (A \cap B)^c = A^c \cup B^c
     \]
 
-- **Identity Laws:**
+- [**Identity Laws:**](images/identity-laws-example.JPG)
   - \(A \cup \emptyset = A\)  
   - \(A \cup U = U\) (where \(U\) is the universal set)
   - \(A \cap \emptyset = \emptyset\)  
   - \(A \cap U = A\)
 
-- **Complement Laws:**
+- [**Complement Laws:**](images/complement-laws-example.JPG)
   - \(A \cup A^c = U\)  
   - \(A \cap A^c = \emptyset\)  
   - \((A^c)^c = A\)
 
-- **Absorption Law:**
+- [**Absorption Law:**](images/absorption-laws-example.JPG)
   - \(A \cup (A \cap B) = A\)  
   - \(A \cap (A \cup B) = A\)
 
 - **Set Difference:**
   - \(A - B\) can be written as \(A \cap B^c\).
+
+- [**Double negation law:**](images/double-negation-laws.JPG) 
+  - See image for explanation
 
 These identities are tools to rewrite and simplify expressions involving sets.
 
