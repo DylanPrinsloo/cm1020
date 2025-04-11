@@ -24,9 +24,11 @@ first law = (A ∪ B)′ = A′ ∩ B′
 second law = (A ∩ B)′ = A′ ∪ B′
 
 
-Commutativity
-Associativity
-Distributivity
+Commutativity (order does not matter) (subtraction/set difference DOES not work)
+
+Associativity (grouping of elements in an operation) (addition) (set difference is NOT associative)
+
+Distributivity (multiplication or division) 
 
 Absorption Law added on the other laws with de morgans
 

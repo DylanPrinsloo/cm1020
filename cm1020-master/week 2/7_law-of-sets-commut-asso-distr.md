@@ -1,4 +1,4 @@
-# 1. Overview on laws of sets
+# 1. [Overview on laws of sets](images/set-identities-union-name-intersection.png)
 
 The lecture introduces fundamental algebraic properties that also apply to sets. Specifically, it covers:
 
@@ -118,9 +118,9 @@ Several other identities were mentioned in the lecture:
 These identities are tools to rewrite and simplify expressions involving sets.
 
 
-### 6. Application: Simplifying a Set Expression
+### 6. Application: Simplifying a Set Expression 
 
-An example was given to show how these identities can simplify complex expressions:
+[An example was given to show how these identities can simplify complex expressions](images/example-of-laws-of-sets.png):
 
 - **Expression:**  
   \[
