@@ -20,7 +20,7 @@
 
 **Truth tables** can also be used to prove these laws in the context of Boolean algebra by demonstrating that both sides of the equations yield the same truth values for all possible inputs.
 
-- [(A ∪ B)′ = A′ ∩ B′]((images/de-morgans-law-proof-mem-tbls.JPG))
+- [(A ∪ B)′ = A′ ∩ B′](images/de-morgans-law-proof-mem-tbls.JPG)
   
 - [(A ∩ B)′ = A′ ∪ B′](images/de-morgans-law-membership-table-2.png)
 
