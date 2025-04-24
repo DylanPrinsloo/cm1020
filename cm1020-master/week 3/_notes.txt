@@ -1,0 +1,17 @@
+Example of pre-image = pre-image(5)
+
+g: R -> R^2 + 1
+
+D_g = R
+Co D_g = R
+
+
+Range = [1, ∞]
+
+therefore pre-image = {-2, 2} 
+
+because -2^2 + 1 = 2^2 + 1 = 5
+
+
+
+linear functions, quad, exponential
