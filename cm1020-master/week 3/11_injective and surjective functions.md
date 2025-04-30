@@ -1,6 +1,6 @@
 # In this lecture, we will explore two important properties of functions: **injectivity** and **surjectivity**.
 
-### Injective (One-to-One) Functions
+### [Injective (One-to-One) Functions](images/injective_functions.JPG)
 
 A function is called **injective** (or one-to-one) if **different inputs produce different outputs**. That is, for a function \( f: A \rightarrow B \), if \( f(a) = f(b) \) implies that \( a = b \), then \( f \) is injective.
 
@@ -50,7 +50,7 @@ Thus, the function is injective on \( \mathbb{R}^+ \).
 
 ---
 
-### Surjective (Onto) Functions
+### [Surjective (Onto) Functions](images/surjective_functions.JPG)
 
 A function \( f: A \rightarrow B \) is called **surjective** (or onto) if **every element in the codomain \( B \)** has **at least one pre-image** in the domain \( A \).
 
@@ -74,7 +74,7 @@ Since \( \frac{y - 3}{2} \in \mathbb{R} \), the function is **surjective**.
 
 ---
 
-### Non-Surjective Example: Quadratic Function
+### [Non-Surjective Example: Quadratic Function]()
 
 Let \( f(x) = x^2 \), defined from \( \mathbb{R} \rightarrow \mathbb{R} \).
 
@@ -82,3 +82,5 @@ Let \( f(x) = x^2 \), defined from \( \mathbb{R} \rightarrow \mathbb{R} \).
 - Range: \( \mathbb{R}^+ \cup \{0\} \)
 
 Since **no negative number** in the codomain has a pre-image (e.g., \( f(x) = -1 \) has no solution in \( \mathbb{R} \)), this function is **not surjective**.
+
+## [Summary](images/recap_or_summary.png)
