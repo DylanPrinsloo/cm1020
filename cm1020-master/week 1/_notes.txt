@@ -1,3 +1,8 @@
+- **ℕ =** the set of natural numbers (positive integers)  
+- **ℤ =** the set of integers  
+- **ℚ =** the set of rational numbers  
+- **ℝ =** the set of real numbers  
+
 
 set:                   S = {1, 2, 3}
 cardinality:          |S| = 3
