@@ -1,0 +1,5 @@
+Floor and Ceiling functions
+
+floor 3.3 = 3.0 and floor -3.3 = -4
+
+Ceiling 3.3 = 4 and celing -3.3 = -3
