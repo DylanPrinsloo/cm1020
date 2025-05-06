@@ -22,7 +22,7 @@ Think of it as the **algebra of truth values**.
 
 ### 🧠 **Why Is It Important?**
 
-* **Foundation of mathematical reasoning** – It’s used to formalize **proofs** and arguments.
+* **Foundation of mathematical reasoning** – It's used to formalize **proofs** and arguments.
 * **Old roots** – Goes back to **Aristotle**, who used it to model rational thinking.
 * **In computer science**:
 
@@ -34,7 +34,7 @@ Think of it as the **algebra of truth values**.
 
 ### 💡 **Examples of Propositional Logic**
 
-Let’s define:
+Let's define:
 
 * `P`: "It is raining"
 * `Q`: "The ground is wet"
@@ -58,7 +58,7 @@ Then:
 
 ### 🔄 What Comes Next?
 
-You’ll later explore **Predicate Logic**, which extends propositional logic by adding:
+You'll later explore **Predicate Logic**, which extends propositional logic by adding:
 
 * **Variables**, **quantifiers** (`∀`, `∃`)
 * Ability to express more complex statements like "All humans are mortal"
