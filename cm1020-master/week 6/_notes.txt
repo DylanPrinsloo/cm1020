@@ -1,0 +1,24 @@
+| Operator         | Symbol | Meaning                | Truth Table Notes                              |
+| ---------------- | ------ | ---------------------- | ---------------------------------------------- |
+| Negation         | ¬p     | “Not p”                | True becomes False, False becomes True         |
+| Conjunction      | p ∧ q  | “p and q”              | True only if both p and q are True             |
+| **Disjunction    | p ∨ q  | “p or q”               | False only if both p and q are False           |
+| Exclusive-Or     | p ⊕ q | “p or q, but not both” | True only if exactly one of p or q is True    |
+
+
+1. Negation (¬) – Highest priority
+2. Conjunction (∧)
+3. Disjunction (∨)
+4. Exclusive-Or (⊕) – Usually same as disjunction
+5. Implication (→) and **Biconditional (↔)** – Lower precedence
+
+¬p  = not p
+p ∧ q = p and q
+p ∨ q = p or q
+p ⊕ q = p either/or q (true if one is true)
+
+
+Implication (→) and Biconditional (↔) - Happens LAST
+
+    - Implication: "IF-THEN" (If it's raining, then streets are wet)
+    - Biconditional: "IF AND ONLY IF" (Streets are wet if and only if it's raining)
