@@ -1,4 +1,4 @@
-# Logical Equivalence
+# [Logical Equivalence](images/22-non_equivalence.JPG)
 
 In this lecture, we will discuss logical equivalence. We will:
 1. Define the equivalence logical operator and examine some of its properties

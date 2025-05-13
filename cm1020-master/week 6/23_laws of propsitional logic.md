@@ -2,7 +2,7 @@
 
 In this lecture, we will explore a number of propositional logic laws. First, we'll introduce and discuss some important laws of propositional logic including DeMorgan's laws. Then, we will show how these laws are used in practice to build a reasoning and prove equivalence.
 
-## Introduction to Propositional Logic Laws
+## [Introduction to Propositional Logic Laws](images/23-import_equivalences.png)
 
 We said at the beginning of the topic that propositional logic is an algebra involving multiple laws. Let's take a look at some of the most important of them:
 
@@ -47,7 +47,7 @@ DeMorgan's laws are very useful. They formalize how we negate conjunction and di
 
 For instance, the negation of disjunction is formed by taking the conjunction of the negation of the component propositions.
 
-## Additional Important Laws
+## [Additional Important Laws](images/23-import_equivalences2.png)
 
 Other laws can be useful for simplifying compound propositions such as:
 
@@ -64,7 +64,7 @@ Other laws can be useful for simplifying compound propositions such as:
 
 ## Building an Equivalence Proof
 
-Now, let's see how we can use the laws that we have seen so far to build an equivalence proof. For instance, let's examine the equivalence between these two compound propositions:
+[Now, let's see how we can use the laws that we have seen so far to build an equivalence proof. For instance, let's examine the equivalence between these two compound propositions:](images/23-example_equ.png)
 
 The given proposition is $\neg p \land (\neg p \lor q)$.
 

@@ -1,4 +1,4 @@
-# Logical Implication
+# [Logical Implication](images/21-logical_implication.JPG)
 
 In this lecture, we will talk about logical implication. We will begin by defining an implication or conditional statements, then we will build its truth table, and finally we will discuss the converse, inverse, and contrapositive of an implication.
 
