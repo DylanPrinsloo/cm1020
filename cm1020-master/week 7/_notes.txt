@@ -1,0 +1,64 @@
+Universal Quantifier (∀)
+
+- Symbol: ∀
+- Meaning: "For all" or "For every"
+- Usage: ∀x P(x) means "For all x, P(x) is true"
+- Example: ∀x (x > 0 → x² > 0) means "For all x, if x is positive then x² is positive"
+
+Existential Quantifier (∃)
+
+- Symbol: ∃
+- Meaning: "There exists" or "For some"
+- Usage: ∃x P(x) means "There exists at least one x such that P(x) is true"
+- Example: ∃x (x² = 4) means "There exists an x such that x² = 4"
+
+Uniqueness Quantifier (∃!)
+
+- Symbol: ∃!
+- Meaning: "There exists exactly one"
+- Usage: ∃!x P(x) means "There exists exactly one x such that P(x) is true"
+- Example: ∃!x (x + 5 = 8) means "There exists exactly one x such that x + 5 = 8"
+
+---------------------------------------------------------------------------------------------------------
+
+Logical Operators
+
+Negation (¬)
+- Symbol: ¬ (also written as ~)
+- Meaning: "Not"
+- Usage: ¬P means "P is false"
+
+Conjunction (∧)
+- Symbol: ∧
+- Meaning: "And"
+- Usage: P ∧ Q means "Both P and Q are true"
+
+Disjunction (∨)
+
+- Symbol: ∨
+- Meaning: "Or"
+- Usage: P ∨ Q means "P is true or Q is true (or both)"
+
+Implication (→)
+
+- Symbol: → (also written as ⇒)
+- Meaning: "If...then"
+- Usage: P → Q means "If P is true, then Q is true"
+
+Equivalence (↔)
+
+- Symbol: ↔ (also written as ⇔)
+- Meaning: "If and only if"
+- Usage: P ↔ Q means "P is true if and only if Q is true"
+
+Nested Quantifiers
+
+- ∀x ∀y P(x,y): "For all x and for all y, P(x,y) is true"
+- ∃x ∃y P(x,y): "There exists an x and there exists a y such that P(x,y) is true"
+- ∀x ∃y P(x,y): "For all x, there exists a y such that P(x,y) is true"
+- ∃x ∀y P(x,y): "There exists an x such that for all y, P(x,y) is true"
+
+Variable Status
+
+- **Bound variable**: A variable within the scope of a quantifier
+- **Free variable**: A variable not bound by any quantifier
