@@ -1,4 +1,4 @@
-# Rules of Inference with Quantifiers
+# [Rules of Inference with Quantifiers](images/rules_of__inference_with_quantification_outlined.png)
 
 ## Introduction
 

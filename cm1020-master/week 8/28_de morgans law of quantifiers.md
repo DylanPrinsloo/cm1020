@@ -19,11 +19,11 @@ Intuitively:
 
 Let P be a predicate over the variable x:
 
-1. **Negating Universal Quantifier**:
+1. [**Negating Universal Quantifier**:](images/de_morgans_law_negating_quantifiers.png)
    - ¬(∀x P(x)) ≡ ∃x ¬P(x)
    - "The negation of 'for all x, P(x)' is equivalent to 'there exists an x for which not P(x)'"
 
-2. **Negating Existential Quantifier**:
+2. [**Negating Existential Quantifier**:](images/de_morgans_law_negating_quantifiers.png)
    - ¬(∃x P(x)) ≡ ∀x ¬P(x)
    - "The negation of 'there exists an x for which P(x)' is equivalent to 'for every x, not P(x)'"
 

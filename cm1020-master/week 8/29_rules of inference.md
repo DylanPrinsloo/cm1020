@@ -1,4 +1,4 @@
-# Rules of Inference in Propositional Logic
+# [Rules of Inference in Propositional Logic](images/rules_of_inference_outlined.png)
 
 ## Valid Arguments
 
@@ -214,3 +214,162 @@ Fallacies are incorrect arguments in reasoning. Formal fallacies can be expresse
 **Formalized**: (p → q) ∧ q, therefore p
 
 This is not a valid argument because (p → q) ∧ q → p is not a tautology (it's false when p is false and q is true).
+
+---
+
+# Summary 🧠
+
+### 1. **Modus Ponens**
+
+If `P → Q` and `P` are both true, then `Q` is true.
+**Form:**
+
+```
+P → Q  
+P  
+∴ Q
+```
+
+### 2. **Modus Tollens**
+
+If `P → Q` and `¬Q` are true, then `¬P` is true.
+**Form:**
+
+```
+P → Q  
+¬Q  
+∴ ¬P
+```
+
+### 3. **Hypothetical Syllogism**
+
+If `P → Q` and `Q → R` are true, then `P → R` is true.
+**Form:**
+
+```
+P → Q  
+Q → R  
+∴ P → R
+```
+
+### 4. **Disjunctive Syllogism**
+
+If `P ∨ Q` and `¬P` are true, then `Q` is true.
+**Form:**
+
+```
+P ∨ Q  
+¬P  
+∴ Q
+```
+
+### 5. **Conjunction**
+
+If `P` and `Q` are both true, then `P ∧ Q` is true.
+**Form:**
+
+```
+P  
+Q  
+∴ P ∧ Q
+```
+
+### 6. **Simplification**
+
+If `P ∧ Q` is true, then `P` is true.
+**Form:**
+
+```
+P ∧ Q  
+∴ P
+```
+
+### 7. **Addition**
+
+If `P` is true, then `P ∨ Q` is true.
+**Form:**
+
+```
+P  
+∴ P ∨ Q
+```
+
+### 8. **Existential Instantiation**
+
+From `∃x P(x)`, infer `P(c)` for some specific `c`.
+**Form:**
+
+```
+∃x P(x)  
+∴ P(c)
+```
+
+### 9. **Universal Generalization**
+
+From `P(c)` for arbitrary `c`, infer `∀x P(x)`.
+**Form:**
+
+```
+P(c) (for arbitrary c)  
+∴ ∀x P(x)
+```
+
+### 10. **Existential Generalization**
+
+From `P(c)` for some `c`, infer `∃x P(x)`.
+**Form:**
+
+```
+P(c) (for some c)  
+∴ ∃x P(x)
+```
+
+---
+
+# ✅ Examples
+
+### **Example 1**
+
+**Given:**
+
+1. `P ∨ Q` (Premise)
+2. `¬P` (Premise)
+
+**To Prove:** `Q`
+
+**Solution:**
+
+```
+1. P ∨ Q          (Premise)  
+2. ¬P             (Premise)  
+3. Q              (From 1 and 2 using Disjunctive Syllogism)  
+∴ Q
+```
+
+---
+
+### **Example 2**
+
+**Given:**
+
+1. `∀x(P(x) → R(x))`
+2. `∀x(Q(x) → S(x))`
+3. `P(a)`
+4. `Q(a)`
+
+**To Prove:** `R(a) ∧ S(a)`
+
+**Solution:**
+
+```
+1. ∀x(P(x) → R(x))       (Premise)  
+2. ∀x(Q(x) → S(x))       (Premise)  
+3. P(a)                  (Premise)  
+4. Q(a)                  (Premise)  
+5. P(a) → R(a)           (From 1 using Universal Instantiation)  
+6. Q(a) → S(a)           (From 2 using Universal Instantiation)  
+7. R(a)                  (From 3 and 5 using Modus Ponens)  
+8. S(a)                  (From 4 and 6 using Modus Ponens)  
+9. R(a) ∧ S(a)           (From 7 and 8 using Conjunction)  
+∴ R(a) ∧ S(a)
+```
