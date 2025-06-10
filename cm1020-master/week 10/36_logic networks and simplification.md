@@ -12,17 +12,17 @@ Combinational circuits are arrangements of logic gates that implement Boolean fu
 2. **Circuit → Boolean Function**: Label gate outputs and work backward
 
 ## Example Applications: Adders
-- **Half Adder**: Adds two binary bits
+- [**Half Adder**:](images/half_adder.png) Adds two binary bits
   * Sum output = XOR gate
   * Carry output = AND gate
   * Limitation: Only two inputs
 
-- **Full Adder**: Adds three binary bits (includes carry-in)
+- **Full Adder**: Adds three binary bits (includes carry-in) : [image_1](images/full_adder_1.png),  [image_2](images/full_adder_2.png)
   * Three inputs: x, y, carry-in
   * Two outputs: sum, carry-out
   * Used for multi-bit addition
 
-## Boolean Function Simplification
+## [Boolean Function Simplification](images/example_for_36.png)
 
 **Benefits of Simplification:**
 - Reduces circuit cost (fewer gates)
