@@ -1,0 +1,20 @@
+What Recursion Actually Does:
+
+Recursion doesn't "transition to an infinity base case." Instead, it works in the opposite 
+direction - it breaks problems down from complex cases toward finite, well-defined base cases.
+
+Recurrence Relations and Infinity:
+
+Recurrence relations actually do have a relationship with infinity, but not in the way your original statement described. 
+Here's the key distinction:
+
+
+- What Recurrence Relations Actually Do
+Recurrence relations define infinite sequences - they give us a rule that can generate infinitely many terms, but they don't 
+"transition to an infinity base case." 
+
+Instead:
+
+    - They start with finite initial conditions (base cases)
+    - They provide a rule for generating the next term from previous terms
+    - This process can continue indefinitely, creating an infinite sequence
