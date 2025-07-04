@@ -32,12 +32,12 @@ V1 --e1--> V2 --e2--> V3 --e3--> V4
 +--e7--> V6 <--e6-- V5 <--e8-----+
 ```
 
-### Path
+### [Path](images/4path_and_no_path.png)
 - **Definition**: A trail where neither vertices nor edges are repeated
 - **Length**: Number of edges contained in the path
 - **Example**: V1 → V2 → V3 → V4 → V6 using edges e1, e2, e3, e4 (no repetition)
 
-### Cycle
+### [Cycle](images/5cycle.png)
 - **Definition**: A closed path where a vertex is reachable from itself
 - **Key Feature**: Forms a loop with no repeated vertices except start/end
 - **Example**: V1 → V2 → V5 → V1 using edges e1, e2, e3 (length 3)
@@ -56,7 +56,7 @@ In 1736, residents of Königsberg, Germany wondered if they could walk through t
 
 ## Special Types of Paths
 
-### Eulerian Path
+### [Eulerian Path](images/6eulers_path.png)
 - **Definition**: A path that uses each edge of the graph exactly once
 - **Traversable Graph**: A graph containing an Eulerian path
 - **Example**: A path that visits every edge precisely once
@@ -72,7 +72,7 @@ V4 <--e5-- V5 <--e4-- V6
 Eulerian Path: e2→e4→e6→e7→e5→e3→e1
 ```
 
-### Hamiltonian Path
+### [Hamiltonian Path](images/7hamiltonian_path.png)
 - **Definition**: A path that visits each vertex exactly once
 - **Traceable Graph**: A graph containing a Hamiltonian path
 - **Key Difference**: Focuses on vertices (not edges like Eulerian)
@@ -85,7 +85,7 @@ V4 ---- V5 ---- V6
 Hamiltonian Path: V1→V2→V3→V6→V5→V4 (visits each vertex once)
 ```
 
-### Hamiltonian Cycle
+### [Hamiltonian Cycle](images/8hamiltonian_cycle.png)
 - **Definition**: A cycle that visits each vertex exactly once, except the starting vertex (visited at start and end)
 - **Hamiltonian Graph**: A graph containing a Hamiltonian cycle
 
@@ -97,7 +97,7 @@ V4 ------------ V5
 Hamiltonian Cycle: V1→V2→V3→V5→V4→V1
 ```
 
-## Graph Connectivity
+## [Graph Connectivity](images/9strong_connectivity_graph.png)
 
 ### Connected Graph (Undirected)
 - **Definition**: A graph where you can reach any vertex from any other vertex by following edges
@@ -144,7 +144,7 @@ V1 ----→ V2 ----→ V3
 (No path from V4 to other vertices)
 ```
 
-## Transitive Closure
+## [Transitive Closure](images/10transitive_closure.png)
 
 ### Definition
 Given a digraph G, the **transitive closure** G* is a digraph with:
