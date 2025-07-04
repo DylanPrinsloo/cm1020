@@ -14,7 +14,7 @@ Where:
 - **V** is the set of vertices (nodes)
 - **E** is the set of edges (connections between vertices)
 
-## Key Components
+## [Key Components](images/1edges_and_vertex.png)
 
 ### Vertices
 - **Definition**: The basic elements of a graph, typically drawn as dots or circles
@@ -83,7 +83,7 @@ v₂ ====== v₅
 
 In this case, both e₆ and e₈ connect vertices v₂ and v₅.
 
-### Loops
+### [Loops](images/2loops_and_parallel_edges.png)
 A **loop** is an edge that connects a vertex to itself.
 
 ```
@@ -92,7 +92,7 @@ v₁ ⟲ e₉
 
 Here, edge e₉ forms a loop by connecting v₁ to itself.
 
-## Directed Graphs (Digraphs)
+## [Directed Graphs (Digraphs)](images/3diagraph.png)
 
 A **directed graph** or **digraph** is a graph where edges have a specific direction, typically indicated by arrows.
 
