@@ -1,0 +1,18 @@
+1.4 Bipartite graphs: understand bipartite graphs, where vertices can be divided into two disjoint sets such that every edge connects a vertex in one set to a vertex in the other.
+
+
+2.0 Graph representation:
+
+2.1 Adjacency matrix: learn to represent graphs using a matrix where rows and columns represent vertices and entries indicate the presence of edges.
+
+2.2 Adjacency list: understand how to use lists for graph representation, especially useful for sparse graphs.
+
+2.3 Degree sequence: representing a graph with its corresponding degree sequence. 
+
+
+
+4. Significant algorithms:
+
+4.1 Dijkstra's algorithm: learn to find the shortest path from a source vertex to all other vertices in a weighted graph with non-negative weights.
+
+4.2 Maximum matching: learn about finding the largest possible matching in a graph, especially in bipartite graphs, where a matching is a set of edges without common vertices.
