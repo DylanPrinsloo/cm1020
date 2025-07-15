@@ -23,7 +23,7 @@ Graph G with weights:
 - T₃ weight: 8+6+4+1+2 = 21
 - T₄ (minimum): lowest cost spanning tree
 
-## Kruskal's Algorithm
+## [Kruskal's Algorithm](images/kruskals_algorithm.png)
 **Strategy**: Start with cheapest edge, repeatedly add cheapest edge that doesn't create cycle.
 
 ### Steps:
@@ -41,7 +41,7 @@ Iteration 4: Add BA (skip DC - creates cycle)
 Iteration 5: Add DE
 ```
 
-## Prim's Algorithm
+## [Prim's Algorithm](images/prims_algorithim.png)
 **Strategy**: Start with any node, repeatedly add cheapest edge to unvisited node.
 
 ### Steps:

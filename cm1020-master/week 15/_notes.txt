@@ -1,0 +1,7 @@
+(1) Prim's and Kruskal's Algorhitim
+
+Proof of contradiction
+
+Cyclic graphs and tree
+
+Weighted graps, and using (1)
