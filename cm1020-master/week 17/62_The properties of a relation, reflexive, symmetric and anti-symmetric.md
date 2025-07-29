@@ -136,7 +136,7 @@ In the digraph of an antisymmetric relation $R$ on set $S$:
 
 **Example:** Let $S = \{1, 2, 3, 4\}$ with relation $R$ defined as "divides". The digraph shows single directed edges with no parallel connections between different vertices.
 
-### Matrix Representation of Antisymmetric Relations
+### Matrix Representation of Antisymmetric Relations (See _notes.txt)
 
 For an antisymmetric relation $R$ with matrix representation $M_R$:
 - **If $M_{ij} \neq 0$ and $i \neq j$, then $M_{ji} = 0$**

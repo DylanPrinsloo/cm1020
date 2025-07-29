@@ -1,0 +1,3 @@
+In dummy terms, “antisymmetric” just means this:
+
+If one thing is related to another, and the other is related back the same way, then they must be the same thing.

@@ -1,6 +1,4 @@
-# Mathematical Relations Lecture
-
-In this lecture, we examine the mathematical concept of relations, beginning with an informal definition and progressing to a formal set-theoretic framework.
+# Mathematical Relations 
 
 ## Informal Definition
 
@@ -8,7 +6,7 @@ A **relation** is a connection or association between elements of two sets, or w
 
 Let $A$ and $B$ be two sets. A relation $R$ from $A$ to $B$ is a rule that associates elements of $A$ with elements of $B$. If $x \in A$ and $y \in B$, we write $xRy$ to indicate that $x$ is related to $y$ via $R$.
 
-### Example
+### [Example](images/example_of_relation_matrix.png)
 
 Let $A$ be the set of students:
 $$A = \{\text{Sofia}, \text{Samir}, \text{Sarah}\}$$
@@ -55,6 +53,4 @@ $$R = \{(x, y) \mid x, y \in A, x < y\}$$
 So:
 $$R = \{(1,2), (1,3), (1,4), (2,3), (2,4), (3,4)\}$$
 
-## Summary
 
-This lecture introduced the concept of relations, defined the Cartesian product, and provided the formal definition of a relation as a subset of a Cartesian product, both between two sets and within a single set.

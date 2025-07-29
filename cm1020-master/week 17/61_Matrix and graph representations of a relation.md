@@ -69,7 +69,7 @@ $$M_S = \begin{pmatrix}
 
 Here, the main diagonal contains all ones since every element is less than or equal to itself.
 
-## Combining Relations Using Matrices
+## [Combining Relations Using Matrices](images/combine_matrix_relations_example.png)
 
 We can combine relations using Boolean matrix operations, where entries are restricted to $\{0, 1\}$.
 
@@ -101,7 +101,7 @@ A relation $R$ on set $A$ can be represented as a **directed graph** (digraph) w
 - Each element of $A$ is a vertex
 - There is a directed edge from vertex $x$ to vertex $y$ if and only if $x \, R \, y$
 
-### Example 1: Divisibility Relation
+### [Example 1: Divisibility Relation](images/example_1_of_a_diagraph.png)
 
 Let $A = \{1, 2, 3, 4\}$ and define relation $R$ as "divides":
 $$R = \{(x,y) \mid x, y \in A \text{ and } x \text{ divides } y\}$$
@@ -111,7 +111,7 @@ The digraph representation shows:
 - Edge from 1 to all other vertices (since 1 divides all numbers)
 - Edge from 2 to 4 (since 2 divides 4)
 
-### Example 2: Less Than or Equal To
+### [Example 2: Less Than or Equal To](images/example_2_of_a_diagraph.png)
 
 For $A = \{1, 2, 3, 4, 5\}$ with relation $R$ defined as $x \leq y$:
 
@@ -119,7 +119,7 @@ The digraph contains:
 - Self-loops at every vertex (reflexive property)
 - Directed edges from each element to all elements greater than or equal to it
 
-### Example 3: Strictly Less Than
+### [Example 3: Strictly Less Than](images/example_3_of_a_diagraph.png)
 
 Using the same set $A$ with relation $R$ defined as $x < y$:
 
