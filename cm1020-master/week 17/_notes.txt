@@ -1,3 +1,17 @@
-In dummy terms, “antisymmetric” just means this:
+1. Reflexive
+Everything is related to itself
 
-If one thing is related to another, and the other is related back the same way, then they must be the same thing.
+2. Symmetric  
+If A is related to B, then B is related to A
+
+3. Anti-symmetric
+If one thing is related to another, and the other is related back the same way, then they must be the same thing
+
+4. Transitive
+If one thing is related to a second thing, and that second thing is related to a third thing, then the first thing is also related to the third thing
+
+Quick Check
+- Reflexive: All (a,a) pairs present?
+- Symmetric: Every pair has its reverse?
+- Anti-symmetric: No crossing pairs (except same element)?
+- Transitive: All chains complete?

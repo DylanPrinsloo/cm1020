@@ -116,7 +116,7 @@ For k = 1 to n:
 
 This algorithm systematically adds all necessary transitive connections by considering each vertex as an intermediate point.
 
-## Properties of Transitive Relations
+## Properties of [Transitive Relations](images/transitive_closure_of_a_relation.png)
 
 ### Theorem
 If $R$ is transitive, then $R^n \subseteq R$ for all positive integers $n$, where $R^n$ denotes the $n$-th composition of $R$ with itself.
