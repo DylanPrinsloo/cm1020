@@ -1,0 +1,30 @@
+Warshall's algorithm helps you figure out if there's a path — direct or indirect — between every pair of cities. 
+
+
+What’s an Equivalence Class:
+
+Key Properties:
+
+1. Each item belongs to exactly one class
+   (You can't be both "odd" and "even"!)
+
+2. If two items are equivalent, they have the same class
+   (If 1 ≡ 3, then \[1] = \[3])
+
+3. The classes split the set into non-overlapping groups
+   (No overlap, nothing left out)
+
+Example with numbers:
+
+Set: S = {1, 2, 3, 4}
+Rule: "a ≡ b (mod 2)" → same odd/even
+
+Then:
+
+* \[1] = {1, 3} ← both odd
+* \[2] = {2, 4} ← both even
+
+That’s your set broken into equivalence classes!
+
+
+
