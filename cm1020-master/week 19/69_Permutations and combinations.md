@@ -41,33 +41,52 @@ By the product rule: $P(n,r) = n \times (n-1) \times (n-2) \times \cdots \times 
 **Solution**: We need to find the number of 3-permutations from a set of 50 elements:
 $$P(50,3) = 50 \times 49 \times 48 = 117,600$$
 
-### Combinations
+# Combinations
 
-#### Definition  
+## Definition
+
 An **r-combination** of elements from a set is an unordered selection of r elements from the set. An r-combination is simply a subset of the set with r elements.
 
 The number of r-combinations of a set with n distinct elements is denoted by $C(n,r)$ or $\binom{n}{r}$, read as "n choose r."
 
-#### Formula for Combinations
+## Formula for Combinations
+
 $$C(n,r) = \binom{n}{r} = \frac{n!}{(n-r)! \cdot r!}$$
 
 This can also be expressed as:
 $$\binom{n}{r} = \frac{P(n,r)}{r!}$$
 
-#### Key Property
+where $P(n,r)$ is the number of permutations of n objects taken r at a time.
+
+## Key Property
+
 From the definition, it follows that:
 $$\binom{n}{r} = \binom{n}{n-r}$$
 
 This symmetry property reflects the fact that choosing r elements to include is equivalent to choosing (n-r) elements to exclude.
 
-#### Application Example: Tennis Team Selection
+## Application Example: Tennis Team Selection
+
 **Problem**: A tennis team has 20 members. Find the number of ways to choose 6 players for an international competition.
 
 **Solution**: Since the order of selection doesn't matter, we need the number of 6-combinations from 20 elements:
 
-$$\binom{20}{6} = \frac{20!}{6! \cdot 14!} = \frac{20 \times 19 \times 18 \times 17 \times 16 \times 15}{6 \times 5 \times 4 \times 3 \times 2 \times 1}$$
+$$\binom{20}{6} = \frac{20!}{6! \cdot 14!}$$
 
-$$= \frac{27,907,200}{720} = 38,760$$
+We can simplify this by canceling out the common factorial terms:  (**Note the 14! cancels out**)
+
+$$\binom{20}{6} = \frac{20 \times 19 \times 18 \times 17 \times 16 \times 15}{6!}$$
+
+$$= \frac{20 \times 19 \times 18 \times 17 \times 16 \times 15}{6 \times 5 \times 4 \times 3 \times 2 \times 1}$$
+
+Calculating step by step:
+- Numerator: $20 \times 19 \times 18 \times 17 \times 16 \times 15 = 27{,}907{,}200$
+- Denominator: $6! = 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 720$
+
+Therefore:
+$$\binom{20}{6} = \frac{27{,}907{,}200}{720} = 38{,}760$$
+
+**Answer**: There are 38,760 ways to choose 6 players from a team of 20 members.
 
 ### Key Differences: Permutations vs Combinations
 

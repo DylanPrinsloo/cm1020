@@ -40,7 +40,7 @@ This contradicts our initial hypothesis that the total number of objects equals 
 
 ### Application Example: Card Selection Problem
 
-**Problem**: How many cards must be selected from a standard deck of 52 cards to guarantee that at least four cards of the same suit are chosen?
+**Problem**: How many [cards must be selected from a standard deck of 52 cards to guarantee that at least four cards of the same suit are chosen?](images/card-selection-problem.png)
 
 **Solution**:
 1. Consider 4 boxes, one for each suit (Hearts, Diamonds, Clubs, Spades)
