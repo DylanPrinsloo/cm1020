@@ -2,7 +2,5 @@ user:
   name: Dylan Prinsloo
   roles:
     - student
-  Major: Computer Science
-  Minor: Machine learning and Neural Networks
   Repo: CM1020
-  active: true
+
