@@ -24,7 +24,7 @@ As we raise binomials to higher powers, expansion becomes increasingly complex:
 
 Expanding $(x + y)^{30}$ manually would be extremely tedious and error-prone!
 
-### The Binomial Theorem
+### [The Binomial Theorem](images/binomial_theorem.png)
 
 #### Statement
 For any two variables $x$ and $y$, and any non-negative integer $n$:
@@ -34,15 +34,19 @@ $$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^k y^{n-k}$$
 #### Expanded Form
 $$(x + y)^n = \binom{n}{0}x^0y^n + \binom{n}{1}x^1y^{n-1} + \binom{n}{2}x^2y^{n-2} + \cdots + \binom{n}{n}x^ny^0$$
 
-#### Example Application: Finding Specific Coefficients
+#### [Example Application: Finding Specific Coefficients](images/binomial_theorem_example.png)
 
 **Problem**: Find the coefficient of $x^8y^7$ in the expansion of $(3x - y)^{15}$.
 
 **Solution**:
 1. Rewrite as $(3x + (-y))^{15}$
-2. Apply binomial theorem: $$\sum_{k=0}^{15} \binom{15}{k} (3x)^k (-y)^{15-k}$$
-3. For the term $x^8y^7$, we need $k = 8$ and $15-k = 7$
-4. The coefficient is: $$\binom{15}{8} \cdot 3^8 \cdot (-1)^7 = -3^8 \cdot \frac{15!}{8! \cdot 7!}$$
+2. (a = 3x), (b = -y), (n = 15)
+3. Apply binomial theorem: 
+   $$\sum_{k=0}^{15} \binom{15}{k} (3x)^k (-y)^{15-k}$$
+4. For the term $x^8y^7$, we need $k = 8$ and $15-k = 7$  
+   $$\sum_{k=0}^{15} \binom{15}{k} (3x)^8 (-y)^{7}$$
+5. The coefficient is: 
+   $$\binom{15}{8} \cdot 3^8 \cdot (-1)^7 = -3^8 \cdot \frac{15!}{8! \cdot 7!}$$
 
 ### Applications of the Binomial Theorem
 
@@ -69,7 +73,7 @@ A set with $n$ elements has:
 
 Total number of subsets = $\sum_{k=0}^{n} \binom{n}{k} = 2^n$
 
-### Pascal's Identity
+### [Pascal's Identity](images/pascals_identity.png)
 
 #### Statement
 For integers $n \geq k \geq 1$:
@@ -86,7 +90,7 @@ Each $k$-element subset of $T$ either:
 
 **Conclusion**: $\binom{n+1}{k} = \binom{n}{k-1} + \binom{n}{k}$ ∎
 
-### Pascal's Triangle
+### [Pascal's Triangle](images/pascals_triangle.png)
 
 #### Construction
 Pascal's triangle is a geometric arrangement of binomial coefficients where:
