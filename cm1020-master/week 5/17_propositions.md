@@ -1,13 +1,13 @@
-# Lecture summary on **propositions** in propositional logic:
+# **Propositions** in propositional logic:
 
-### ✅ **What is a Proposition?**
+### **What is a Proposition?**
 
 A **proposition** is a **declarative sentence** that is **either true or false**, **but not both**.
 It’s the **most basic building block** of logic.
 
 ---
 
-### 🧪 **Examples of Valid Propositions**
+### **Examples of Valid Propositions**
 
 These are **valid** because they are declarative and have a clear **truth value**:
 
@@ -22,7 +22,7 @@ These are **valid** because they are declarative and have a clear **truth value*
 
 ---
 
-### 🚫 **Examples of Non-Propositions**
+### **Examples of Non-Propositions**
 
 These are **not propositions** because they:
 
@@ -41,7 +41,7 @@ However, the first two **can become** propositions **if values are assigned** to
 
 ---
 
-### 🔤 **Using Propositional Variables**
+### **Using Propositional Variables**
 
 To **simplify notation**, we use letters like `p`, `q`, `r` to represent entire propositions.
 
@@ -58,7 +58,7 @@ These variables are then used in logical formulas (like `p ∧ q` or `¬r`) to b
 
 ---
 
-### 🧠 Summary
+### Summary
 
 * A **proposition** must be a declarative sentence with a definite truth value (true or false).
 * **Questions**, **commands**, and **vague statements** are **not** propositions.

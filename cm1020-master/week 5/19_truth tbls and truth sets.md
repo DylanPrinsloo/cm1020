@@ -1,6 +1,6 @@
-# Lecture on **truth tables** and **truth sets**:
+# **Truth tables** and **truth sets**:
 
-## ✅ **1. What is a Truth Table?**
+## **1. What is a Truth Table?**
 
 A **truth table** is a table that shows **all possible truth values** of a compound proposition based on the **truth values of its components**.
 
@@ -15,7 +15,7 @@ Each **row** represents one possible **combination of truth values** for the var
 
 ---
 
-### 📊 Example: Two Variables (`p`, `q`)
+### Example: Two Variables (`p`, `q`)
 
 | p     | q     |
 | ----- | ----- |
@@ -26,7 +26,7 @@ Each **row** represents one possible **combination of truth values** for the var
 
 ---
 
-### 🛠️ How to Construct a Truth Table (for n variables)
+### How to Construct a Truth Table (for n variables)
 
 If you have **3 variables** (`p`, `q`, `r`), you need `2^3 = 8` rows. Here's how the pattern works:
 
@@ -47,7 +47,7 @@ If you have **3 variables** (`p`, `q`, `r`), you need `2^3 = 8` rows. Here's how
 
 ---
 
-## ✅ **2. What is a Truth Set?**
+## **2. What is a Truth Set?**
 
 A **truth set** is the set of all elements in a given set `S` for which a **proposition is true**.
 
@@ -55,7 +55,7 @@ We often denote the **truth set of a proposition `p`** as **capital `P`**.
 
 ---
 
-### 📌 Example:
+### Example:
 
 Let **S = {1, 2, 3, ..., 10}**
 
@@ -73,7 +73,7 @@ This simply groups elements where the proposition evaluates to **True**.
 
 ---
 
-## 🔁 Summary
+## Summary
 
 | Concept     | Meaning                                                                 |
 | ----------- | ----------------------------------------------------------------------- |

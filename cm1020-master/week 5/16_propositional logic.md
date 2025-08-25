@@ -1,8 +1,8 @@
-# Clear explanation from the lecture on **Propositional Logic**, including examples and relevance:
+# **Propositional Logic**:
 
 ---
 
-### 🔍 **What Is Propositional Logic?**
+### **What Is Propositional Logic?**
 
 Propositional logic (also called **sentential logic**) is a formal system in which:
 
@@ -20,7 +20,7 @@ Think of it as the **algebra of truth values**.
 
 ---
 
-### 🧠 **Why Is It Important?**
+### **Why Is It Important?**
 
 * **Foundation of mathematical reasoning** – It's used to formalize **proofs** and arguments.
 * **Old roots** – Goes back to **Aristotle**, who used it to model rational thinking.
@@ -32,7 +32,7 @@ Think of it as the **algebra of truth values**.
 
 ---
 
-### 💡 **Examples of Propositional Logic**
+### **Examples of Propositional Logic**
 
 Let's define:
 
@@ -47,7 +47,7 @@ Then:
 
 ---
 
-### 🧰 **Real Applications**
+### **Real Applications**
 
 * **Circuit design**: AND/OR/NOT gates mirror logical operators.
 * **AI & reasoning systems**: Used in expert systems to draw conclusions.
@@ -56,7 +56,7 @@ Then:
 
 ---
 
-### 🔄 What Comes Next?
+### What Comes Next?
 
 You'll later explore **Predicate Logic**, which extends propositional logic by adding:
 

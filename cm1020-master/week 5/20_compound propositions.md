@@ -1,12 +1,12 @@
-# Lecture on **compound propositions** and logical operations:
+# **Compound propositions** and logical operations:
 
-## 🔗 **Compound Propositions**
+## **Compound Propositions**
 
 A **compound proposition** is a logical statement formed by combining **two or more simple propositions** using **logical operators**.
 
 ---
 
-### 🧩 Logical Operators Covered:
+### Logical Operators Covered:
 
 | Operator         | Symbol | Meaning                | Truth Table Notes                              |
 | ---------------- | ------ | ---------------------- | ---------------------------------------------- |
@@ -17,14 +17,14 @@ A **compound proposition** is a logical statement formed by combining **two or m
 
 ---
 
-## 🧪 Examples Explained:
+## Examples Explained:
 
 Assume two propositions:
 
 * **p**: *n is an even number*
 * **q**: *n is less than 10*
 
-### ✅ **1.** "n is an even number and less than 10"
+### **1.** "n is an even number and less than 10"
 
 **→ p ∧ q**
 
@@ -37,7 +37,7 @@ Assume two propositions:
 
 ---
 
-### ✅ **2.** "n is either an even number or less than 10"
+### **2.** "n is either an even number or less than 10"
 
 **→ p ∨ q**
 
@@ -50,7 +50,7 @@ Assume two propositions:
 
 ---
 
-### ✅ **3.** "n is either even or less than 10, but not both"
+### **3.** "n is either even or less than 10, but not both"
 
 **→ p ⊕ q** (exclusive-or)
 
@@ -63,7 +63,7 @@ Assume two propositions:
 
 ---
 
-## 📌 Operator Precedence
+## Operator Precedence
 
 Just like in math, **logic operators have an order** to avoid ambiguity:
 
@@ -80,7 +80,7 @@ Just like in math, **logic operators have an order** to avoid ambiguity:
 
 ---
 
-## 🎓 Summary
+## Summary
 
 * **Negation** reverses truth.
 * **Conjunction** is only true if both are true.
