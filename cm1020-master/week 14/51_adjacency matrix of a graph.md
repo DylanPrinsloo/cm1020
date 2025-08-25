@@ -1,6 +1,6 @@
 # Adjacency Matrix of a Graph: A Comprehensive Summary
 
-## 📊 Graph Representation Methods
+## Graph Representation Methods
 
 There are multiple ways to represent a graph mathematically:
 
@@ -9,7 +9,7 @@ There are multiple ways to represent a graph mathematically:
 3. **Adjacency list**: Listing each vertex with its adjacent vertices
 4. **Adjacency matrix**: A square matrix showing connections between vertices
 
-## 🔄 Adjacency Lists
+## Adjacency Lists
 
 An adjacency list represents a graph by listing each vertex along with all vertices adjacent to it.
 
@@ -40,7 +40,7 @@ v₅: v₂, v₄
 
 We can draw a graph with 5 vertices where each vertex connects to the vertices listed in its adjacency list.
 
-## 🔢 Adjacency Matrices
+## Adjacency Matrices
 
 An adjacency matrix is a square matrix where rows and columns represent vertices. Matrix elements indicate whether pairs of vertices are adjacent.
 
@@ -86,7 +86,7 @@ For a directed graph with adjacency matrix M, M² shows that:
 - From v₂: 4 paths of length 2 to v₁, 1 path to v₂, 2 paths to v₃
 - From v₃: 1 path of length 2 to v₁, 0 paths to v₂ or v₃
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. Adjacency lists provide a space-efficient way to represent sparse graphs
 2. Adjacency matrices make it easy to check if two vertices are adjacent

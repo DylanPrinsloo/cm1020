@@ -1,6 +1,6 @@
 # Bipartite Graphs
 
-## 📊 What is a Bipartite Graph?
+## What is a Bipartite Graph?
 
 A bipartite graph is a special type of graph where the vertices can be divided into two disjoint sets (V₁ and V₂) such that every edge connects a vertex in V₁ to a vertex in V₂. No edges exist between vertices within the same set.
 
@@ -10,7 +10,7 @@ A bipartite graph is a special type of graph where the vertices can be divided i
    
 2. **No Odd-Length Cycles**: Bipartite graphs cannot contain cycles of odd length. Adding an edge that creates an odd-length cycle destroys the bipartite property.
 
-## 🔄 Example of a Bipartite Graph
+## Example of a Bipartite Graph
 
 A graph G with:
 - Set V₁ containing vertices {A, B, C, D}
@@ -28,7 +28,7 @@ Each edge connects a vertex from V₁ to a vertex in V₂.
     D
 ```
 
-## 🔗 Matchings in Bipartite Graphs
+## Matchings in Bipartite Graphs
 
 ### What is a Matching?
 
@@ -43,7 +43,7 @@ A maximum matching is a matching of maximum size such that if any edge is added,
 
 In a bipartite graph, there might be multiple valid maximum matchings.
 
-## 🔍 Finding Maximum Matchings: The Hopcroft-Karp Algorithm
+## Finding Maximum Matchings: The Hopcroft-Karp Algorithm
 
 The Hopcroft-Karp algorithm is widely used for finding maximum matchings in bipartite graphs.
 
@@ -80,7 +80,7 @@ The Hopcroft-Karp algorithm finds the maximum matching by:
 
 The end result is an optimal assignment where each candidate is matched to a suitable job.
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. Bipartite graphs have vertices that can be divided into two distinct sets
 2. They are two-colorable and contain no odd-length cycles

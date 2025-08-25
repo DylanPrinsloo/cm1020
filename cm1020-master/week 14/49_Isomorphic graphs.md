@@ -1,6 +1,6 @@
 # Graph Isomorphism
 
-## 📊 What is Graph Isomorphism?
+## What is Graph Isomorphism?
 
 Graph isomorphism is a concept that identifies when two graphs are structurally identical, even if they appear different visually. Think of it as recognizing that two graphs are essentially the "same graph" drawn differently.
 
@@ -15,7 +15,7 @@ In simpler terms:
 - The function f maps each vertex of G₁ to exactly one vertex of G₂
 - Every vertex in G₂ is mapped from exactly one vertex in G₁
 
-## 🔄 Example of Isomorphic Graphs
+## Example of Isomorphic Graphs
 
 Consider two graphs G₁ and G₂ where:
 - G₁ has vertices {a₁, a₂, a₃, a₄, a₅}
@@ -32,7 +32,7 @@ f(a₅) = b₅
 
 This function f is bijective and preserves all adjacency relationships between the graphs.
 
-## ✅ Properties of Isomorphic Graphs
+## Properties of Isomorphic Graphs
 
 ### 1. Degree Sequence Requirement
 
@@ -74,7 +74,7 @@ These graphs cannot be isomorphic because their degree sequences differ.
     D---E            I---H
 ```
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. Graph isomorphism identifies structurally equivalent graphs
 2. Isomorphic graphs must have identical degree sequences (necessary but not sufficient)

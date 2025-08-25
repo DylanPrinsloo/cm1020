@@ -1,6 +1,6 @@
 # Dijkstra's Algorithm
 
-## 📊 Introduction to Weighted Graphs
+## Introduction to Weighted Graphs
 
 A weighted graph is a graph where each edge is assigned a numerical value. These weights can represent:
 - Distances between cities
@@ -8,14 +8,14 @@ A weighted graph is a graph where each edge is assigned a numerical value. These
 - Transaction costs
 - Any quantifiable relationship between connected vertices
 
-## 🔍 Overview of Dijkstra's Algorithm
+## Overview of Dijkstra's Algorithm
 
 In 1956, computer scientist Edsger Dijkstra developed an algorithm to compute the shortest path between vertices in a weighted graph. This algorithm:
 - Finds the shortest path from a single source vertex to all other vertices
 - Works effectively on graphs with non-negative edge weights
 - Uses a greedy approach, always selecting the unvisited vertex with the smallest known distance
 
-## 🔢 How Dijkstra's Algorithm Works
+## How Dijkstra's Algorithm Works
 
 The algorithm maintains three key pieces of information:
 1. **Distance**: The current shortest known distance from the start vertex
@@ -38,7 +38,7 @@ The algorithm maintains three key pieces of information:
 - Remove current vertex from unvisited list
 - Repeat until all vertices have been visited
 
-## 🧮 Step-by-Step Example
+## Step-by-Step Example
 
 Consider finding the shortest path from vertex A to all other vertices in a graph:
 
@@ -77,7 +77,7 @@ Consider finding the shortest path from vertex A to all other vertices in a grap
 ### Final Result:
 - Shortest path from A to E is 6, via path A → C → D → E
 
-## 🧩 Pseudocode
+## Pseudocode
 
 ```
 function Dijkstra(Graph, source):
@@ -103,7 +103,7 @@ function Dijkstra(Graph, source):
     return distance[], previous[]
 ```
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. Dijkstra's algorithm efficiently finds shortest paths in weighted graphs
 2. It uses a greedy approach, always selecting the next vertex with minimum distance
