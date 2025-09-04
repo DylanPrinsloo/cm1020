@@ -2,13 +2,13 @@
 
 ### Set theory
 
-- [ ] Set theory
-- [ ] Sets and Elements
-- [ ] Subesets
-- [ ] Cardinality
-- [ ] Power sets
-- [ ] Set operations (union, intersection, difference, complement)
-- [ ] set-builder notation
+- [x] Set theory
+- [x] Sets and Elements
+- [x] Subesets
+- [x] Cardinality
+- [x] Power sets
+- [x] Set operations (union, intersection, difference, complement)
+- [x] set-builder notation
 
 ### Propositional logic
 
@@ -26,66 +26,66 @@
 ### Predicate logic
 
 - [ ] Preidcate logic
-    - [ ] first order logic
-    - [ ] variables, return propostion
-- [ ] Quantifiers
-  - [ ] Universal Quantifier
-  - [ ] Existential Quantifier
-  - [ ] Uniqueness Quantifier
-- [ ] Discourse Universe
-  - [ ] universal set
-  - [ ] Interpretation of universal discourse 
-- [ ] Logic connections (negation, conjunction, disjunction, implication, biconditional)
-- [ ] Logic inference
-  - [ ] Universal instantiation
-  - [ ] Existential instanation
-  - [ ] Universal generalisation
-- [ ] Nested quantifiers
-  - [ ] The statements (how its set up) 
+    - [xx] first order logic
+    - [x] variables, return propostion
+- [x] Quantifiers
+  - [x] Universal Quantifier
+  - [x] Existential Quantifier
+  - [x] Uniqueness Quantifier
+- [x] Discourse Universe
+  - [x] universal set
+  - [x] Interpretation of universal discourse 
+- [x] Logic connections (negation, conjunction, disjunction, implication, biconditional)
+- [x] Logic inference
+  - [x] Universal instantiation
+  - [x] Existential instanation
+  - [x] Universal generalisation
+- [x] Nested quantifiers
+  - [x] The statements (how its set up) 
 
 ### Mathematical proofs and recursion
 
-- [ ] Direct proof
-- [ ] Proof by Contradiction
-- [ ] Proof by Contrapositive
-- [ ] Mathematical Induction
-      - [ ] Inductive step
-- [ ] Recursion
-      - [ ] base Case, recursive case
+- [x] Direct proof
+- [x] Proof by Contradiction
+- [x] Proof by Contrapositive
+- [x] Mathematical Induction
+      - [x] Inductive step
+- [x] Recursion
+      - [x] base Case, recursive case
 
 ### Functions and Relations
 
-- [ ] map or relate elements from one set to another
-- [ ] functions (surjective, bijective, injective)
-- [ ] Inverse functions
-- [ ] Relations (symmetric, antisymmetric, reflexive, transitive, relation)
-- [ ] Equivalence relations (R)
-- [ ] Partial order 
+- [x] map or relate elements from one set to another
+- [x] functions (surjective, bijective, injective)
+- [x] Inverse functions
+- [x] Relations (symmetric, antisymmetric, reflexive, transitive, relation)
+- [x] Equivalence relations (R)
+- [x] Partial order 
 - [ ] Digraphs, Plotting functions on graph
 - [ ] Function is one-to-one or onto
 
 ### Combinations and Permutations
 
-- [ ] Permutations
-- [ ] Combinations
+- [x] Permutations
+- [x] Combinations
 
 ### Graph theory
 
-- [ ] set of objects, vertices or nodes, edges + (edge weights)
-- [ ] Euler paths and Cycles
-- [ ] Hamiltonain path
-- [ ] Np-complete
-- [ ] Interpretation of degree sequences
+- [x] set of objects, vertices or nodes, edges + (edge weights)
+- [x] Euler paths and Cycles
+- [x] Hamiltonain path
+- [x] Np-complete (complexity classes)
+- [x] Interpretation of degree sequences
 
 ### Boolean algebra
 
-- [ ] Basic Algebra
-- [ ] Expressions : binary variables, constants, logical operations
-- [ ] Simplification: idempotence, law of nullity etc..
-- [ ] Logical gates, and or and not (negation)
-- [ ] Algebra laws, Karnaugh map to simplify experssions 
+- [x] Basic Algebra
+- [x] Expressions : binary variables, constants, logical operations
+- [x] Simplification: idempotence, law of nullity etc..
+- [x] Logical gates, and or and not (negation)
+- [x] Algebra laws, Karnaugh map to simplify experssions 
 
 ### Algorithms
 
-- [ ] Basic algorithms
-- [ ] Dijkstra's Algorithm, also look at the most recent paper beating it
+- [x] Basic algorithms
+- [x] Dijkstra's Algorithm, also look at the most recent paper beating it
